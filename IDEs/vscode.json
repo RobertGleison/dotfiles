@@ -1,0 +1,98 @@
+{
+  // Theme and Appearance
+  "workbench.colorTheme": "GitHub Dark Mode", // Sets the overall color theme to GitHub's dark mode
+  "workbench.iconTheme": "vscode-jetbrains-icon-theme-2023-auto", // Uses JetBrains-style icons for files and folders
+  "workbench.startupEditor": "none", // Don't show any editor on startup (no welcome tab)
+  //"workbench.settings.editor": "json", // Open settings as JSON instead of GUI
+  "workbench.activityBar.location": "default", // Activity bar position (left side by default)
+  "workbench.sideBar.location": "left", // Moves the sidebar to the left side
+  "workbench.statusBar.visible": false, // Hides the status bar at the bottom
+  "workbench.layoutControl.enabled": true, // Disables layout control buttons in title bar
+  "workbench.tree.indent": 22, // Sets indentation spacing in file explorer tree
+  "workbench.tree.enableStickyScroll": false, // Disables sticky scrolling in tree views
+  "workbench.editor.enablePreview": true, // Opens files in permanent tabs instead of preview mode
+
+  // Editor Configuration
+  "editor.minimap.enabled": false, // Hides the code minimap (small overview on the right)
+  "editor.fontSize": 12, // Sets font size to 12px
+  "editor.fontWeight": "400", // Sets font weight to normal (400)
+  "editor.fontFamily": "JetBrains Mono", // Uses JetBrains Mono as the primary font
+  "editor.letterSpacing": 0.5, // Adds 0.5px spacing between characters
+  "editor.lineHeight": 2, // Sets line height to 2x (double spacing)
+  "editor.tabSize": 2, // Sets tab size to 2 spaces
+  "editor.glyphMargin": true, // Shows the glyph margin (for breakpoints, etc.)
+  "editor.linkedEditing": true, // Enables linked editing for HTML tags
+  "editor.cursorSmoothCaretAnimation": "on", // Enables smooth cursor animation
+  "editor.cursorBlinking": "phase", // Sets cursor blinking style to phase animation
+  "editor.bracketPairColorization.enabled": true, // Disables rainbow bracket colors
+  "editor.semanticHighlighting.enabled": true, // Disables semantic syntax highlighting
+  "editor.accessibilitySupport": "off", // Disables accessibility features for performance
+  "editor.stickyScroll.enabled": false, // Disables sticky scroll (keeping function names visible)
+  "editor.stickyScroll.scrollWithEditor": false, // Disables sticky scroll following editor scroll
+  "editor.guides.indentation": true, // Hides indentation guide lines
+
+  // Code Formatting and Actions
+  "editor.defaultFormatter": "esbenp.prettier-vscode", // Sets Prettier as the default formatter
+  "editor.formatOnSave": true, // Automatically formats code when saving
+  "editor.formatOnPaste": true, // Automatically formats code when pasting
+  "editor.formatOnType": true, // Formats code as you type
+  "editor.codeActionsOnSave": {}, // No specific code actions on save (empty object)
+
+  // Navigation Settings
+  "editor.gotoLocation.multipleDefinitions": "goto", // Go directly to definition if only one exists
+  "editor.gotoLocation.multipleDeclarations": "goto", // Go directly to declaration if only one exists
+  "editor.gotoLocation.multipleImplementations": "goto", // Go directly to implementation if only one exists
+  "editor.gotoLocation.multipleReferences": "goto", // Go directly to reference if only one exists
+  "editor.gotoLocation.multipleTypeDefinitions": "goto", // Go directly to type definition if only one exists
+
+  // Font Configuration for Different Areas
+  "scm.inputFontFamily": "JetBrains Mono", // Font for source control input fields
+  "chat.editor.fontFamily": "JetBrains Mono", // Font for chat/AI assistant editor
+  "debug.console.fontFamily": "", // Default font for debug console (empty = use editor font)
+  "editor.codeLensFontFamily": "JetBrains Mono", // Font for code lens (inline hints)
+  "notebook.output.fontFamily": "JetBrains Mono", // Font for Jupyter notebook outputs
+  "markdown.preview.fontFamily": "JetBrains Mono", // Font for markdown preview
+  "editor.inlayHints.fontFamily": "JetBrains Mono", // Font for inlay hints
+
+  // Terminal Settings
+  "terminal.explorerKind": "external", // Use external terminal when opening from explorer
+  "terminal.integrated.fontSize": 12, // Terminal font size
+  "terminal.integrated.fontWeight": "300", // Terminal font weight (light)
+  "terminal.integrated.fontFamily": "JetBrains Mono", // Terminal font family
+
+  // File Management
+  "files.autoSave": "afterDelay", // Automatically save files after a delay
+  "files.trimTrailingWhitespace": true, // Remove trailing spaces when saving
+  "explorer.confirmDelete": false, // Don't ask for confirmation when deleting files
+  "explorer.confirmDragAndDrop": false, // Don't ask for confirmation when drag-dropping files
+  "explorer.compactFolders": false, // Don't compress single-child folders in explorer
+
+  // Window Behavior
+   // Window Behavior
+    "window.newWindowDimensions": "maximized", // Open new windows maximized
+    "window.titleBarStyle": "custom", // Never show custom title bar
+    "window.commandCenter": true, // Hide command center in title bar
+    "window.menuBarVisibility": "visible",
+
+
+  // Breadcrumbs
+  "breadcrumbs.icons": true, // Hide icons in breadcrumb navigation
+  "breadcrumbs.symbolPath": "off", // Don't show symbol path in breadcrumbs
+
+  // Git Configuration
+  "git.suggestSmartCommit": false, // Don't suggest smart commits
+  "git.autofetch": true, // Automatically fetch changes from remote
+
+  // Language-Specific Settings
+  "python.testing.pytestEnabled": true, // Enable pytest for Python testing
+  "python.defaultInterpreterPath": "python", // Default Python interpreter path
+  "justMyCode": false, // Debug all code, not just user code
+  "javascript.updateImportsOnFileMove.enabled": "always", // Update imports when moving JS files
+
+  // Updates
+  "update.mode": "none", // Disable automatic updates
+
+  "workbench.activityBar.orientation": "vertical",
+
+
+}
